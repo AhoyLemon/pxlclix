@@ -1,0 +1,23 @@
+main.home {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  figure {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    figcaption {
+      text-align: center;
+      font-family: $font-family;
+      font-weight: 500;
+      color: #414141;
+    }
+    img.logo {
+      max-height: calc(50dvh);
+    }
+  }
+}

@@ -4,31 +4,30 @@ $black: #212121;
 $blue: #4885ed;
 $red: #ee2a2a;
 $green: #17680f;
-$yellow:#e9eab9;
+$yellow: #e9eab9;
 $teal: #4e7f71;
 
-  // COLOR UTILITIES
-  $body: $white;
-  $copy: $black;
-  $link: $blue;
-  $accent: $teal;
-  $focus: $yellow;
+// COLOR UTILITIES
+$body: $white;
+$copy: $black;
+$link: $blue;
+$accent: $teal;
+$focus: $yellow;
 
 // BRAND COLORS /////////////////////////////////////////////////////////////////////////
-  $color-twitter: #55acee;
-  $color-github: #181616;
-  $color-facebook: #3B5998;
+$color-twitter: #55acee;
+$color-github: #181616;
+$color-facebook: #3b5998;
 
 // FONTS ////////////////////////////////////////////////////////////////////////////////
-$light:300;
-$medium:400;
-$bold:700;
+$light: 300;
+$medium: 400;
+$bold: 700;
 
 // FONT UTILITIES /////////////////////////////////////////////////////////////////////
-$serif: "Palatino", serif;
-$sans-serif: Helvetica, sans-serif;
-$font-family: $sans-serif;
-$headline: $serif;
+$font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family: $font;
 
 // MEASUREMENTS //////////////////////////////////////////////////////////////////////
 $mobile-max: 767px;

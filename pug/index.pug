@@ -8,11 +8,8 @@ html(lang="en")
   include partials/_head.pug
     
   body
-    #app(v-cloak)
 
-      main(style="height:100vh; display:flex; align-items:center; justify-content:center; padding:2rem;")
-        .inner
-          h1 {{h1}}
-          h5 {{h5}}
-
-    include partials/_javascripts
+    main.home
+      figure
+        img.logo(src="/svg/logo-withtype.svg" alt="pxlclix")
+        figcaption Pxlclix has shuttered. Thanks for your support. 
